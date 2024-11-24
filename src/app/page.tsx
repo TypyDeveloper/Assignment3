@@ -1,9 +1,13 @@
-import MainHeader from "./header/page";
+import Cards from "./card/page";
+import CoreCourseFile from "./corcources/page";
+
 
 export default function Home() {
   return (
     <div>
-      < MainHeader/>
+      <Cards/>
+      <CoreCourseFile/>
+  
     </div>
   );
 }
